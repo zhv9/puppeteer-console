@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer-console",
+  "version": "1.0.0",
+  "description": "A puppeteer console tool. To execute and debug puppeteer code snippet in console.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node -r ts-node/register --inspect=9229 __test__/index.ts"
+  },
+  "keywords": [
+    "puppeteer",
+    "console",
+    "repl",
+    "debug"
+  ],
+  "author": "zhangyu",
+  "license": "MIT",
+  "homepage": "https://github.com/zhv9/puppeteer-console",
+  "dependencies": {
+    "puppeteer": "*"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
