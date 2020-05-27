@@ -2,13 +2,19 @@
 
 This tool was inspired by the idea from [puppeteer-debug](https://github.com/nswbmw/puppeteer-debug).
 
-But it cannot execute complicated code. So I create this tool.
+But it not good enough to me so I create this tool.
 
 # Getting Started
 
 ## Installation
 
-To use puppeteer-console in your project, You can copy `src/index.ts` to your project and import into your code.
+To use puppeteer-console in your project, run:
+
+```shell
+npm install --save-dev puppeteer-console
+```
+
+Also, You can copy `src/index.ts` to your project and import into your code.
 
 # Usage
 
